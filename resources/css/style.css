@@ -6,11 +6,12 @@ html {
   background-color: black;
 }
 
-.company .container {
+.container {
   width: 960px;
+  margin: 0 auto;
 }
 
-.company .container h2 {
+.company h2 {
   color: white;
   font-size: 1rem;
   font-family: Helvetica;
@@ -19,7 +20,7 @@ html {
   display: inline-block;
 }
 
-.company .container img {
+.company img {
   height: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 1rem;
@@ -34,7 +35,10 @@ html {
 
 .main-banner .container {
   padding-top: 9rem;
-  background-color: black
+  background-color: black;
+  top: 9rem;
+  position: relative;
+  line-height: 1.5rem;
 }
 
 .main-banner h2 {
@@ -59,6 +63,14 @@ html {
 nav {
   background-color: firebrick;
   color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
 }
 
 footer {
